@@ -1,8 +1,15 @@
-[package]
+[workspace]
+members = [ "examples/simple",
+    "marks"
+]
+
+[workspace.package]
 name = "rust_graphic_engine"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+repository = "https://github.com/Ericlek/rust_graphic_engine"
 
-[dependencies]
+[workspace.dependencies]
 vello = "0.4.0"
 winit = "0.30.8"

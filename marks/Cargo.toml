@@ -1,0 +1,11 @@
+[package]
+name = "marks"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version = "0.1.0"
+
+
+[dependencies]
+vello = { workspace = true }
+winit = { workspace = true }
